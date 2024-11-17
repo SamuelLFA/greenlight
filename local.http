@@ -1,0 +1,19 @@
+### Healthcheck
+http://localhost:4000/v1/healthcheck
+
+### Post movie
+POST http://localhost:4000/v1/movies
+Content-Type: application/json
+
+{
+    "title": "Moana",
+    "runtime": 107,
+    "genres": [
+      "animation",
+      "adventure"
+    ],
+    "year": 2016
+}
+
+### GET movie
+GET http://localhost:4000/v1/movies/1
